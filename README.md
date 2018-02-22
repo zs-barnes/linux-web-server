@@ -10,7 +10,7 @@ The URL to the hosted webpage is: http://ec2-18-219-100-171.us-east-2.compute.am
 
 
 
-## 3. Summary of Configuration changes
+## 2. Summary of Configuration changes
 After connecting to the server instance locally in a terminal via ssh, the following commands were used to configure the server
 
 ### Upgrade currently installed packages
@@ -384,32 +384,9 @@ Note: if changes need to be made to the project files after the ownership of the
 
 1. Now open up a browser and check to make sure the app is working by going to http://XX.XX.XX.XX or http://ec2-XX-XX-XX-XX.compute-1.amazonaws.com
 
+ 
 
-## 5. 
-
-
-### Dropping and recreating a database
-At some point in the configuration, it may be necessary to drop the catalog database and recreate it. Here is one way to do that:
-
-1. Stop Apache by running `sudo apachectl stop`
-
-1. Switch to the `postgres` user and enter psql: `sudo -u postgres psql`
-
-1. Drop the current database (which is presumably called 'catalog'): `drop database catalog;`
-
-1. Recreate the database: `create database catalog owner catalog;`
-
-1. Exit PostgreSQL and psql (run `exit`)
-
-1. Activate the virtual environmen: `. venv/bin/activate`
-
-1. Run `python populator.py`
-
-1. Deactivate the virtual environment (`deactivate`)
-
-1. Start Apache: `sudo apachectl start`
-
-## 2. Software installed during the configuration
+## 3. Software installed during the configuration
 - Apache2
 - mod_wsgi
 - PostgreSQL
@@ -424,7 +401,7 @@ At some point in the configuration, it may be necessary to drop the catalog data
 - libpq-dev
 - Psycopg2
 
-## 6. Sources
+## 4. Sources
 
  [Configuring Linux Web Servers](https://www.udacity.com/course/configuring-linux-web-servers--ud299)
 
