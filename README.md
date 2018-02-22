@@ -1,8 +1,4 @@
 # Linux Web Server Configuration
-i. The IP address and SSH port so your server can be accessed by the reviewer.
-ii. The complete URL to your hosted web application.
-iii. A summary of software you installed and configuration changes made.
-iv. A list of any third-party resources you made use of to complete this project.
 
 
 ## 1. Server details
@@ -12,20 +8,6 @@ The SSH port used is `2200`.
 
 The URL to the hosted webpage is: http://ec2-18-219-100-171.us-east-2.compute.amazonaws.com/
 
-## 2. Software to install during the configuration
-- Apache2
-- mod_wsgi
-- PostgreSQL
-- git
-- pip
-- virtualenv
-- httplib2
-- Python Requests
-- oauth2client
-- SQLAlchemy
-- Flask
-- libpq-dev
-- Psycopg2
 
 
 ## 3. Summary of Configuration changes
@@ -427,6 +409,20 @@ At some point in the configuration, it may be necessary to drop the catalog data
 
 1. Start Apache: `sudo apachectl start`
 
+## 2. Software installed during the configuration
+- Apache2
+- mod_wsgi
+- PostgreSQL
+- git
+- pip
+- virtualenv
+- httplib2
+- Python Requests
+- oauth2client
+- SQLAlchemy
+- Flask
+- libpq-dev
+- Psycopg2
 
 ## 6. Sources
 
