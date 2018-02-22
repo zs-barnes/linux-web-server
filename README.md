@@ -11,7 +11,7 @@ The URL to the hosted webpage is: http://ec2-18-219-100-171.us-east-2.compute.am
 
 
 ## 2. Summary of Configuration changes
-After connecting to the server instance locally in a terminal via ssh, the following commands were used to configure the server
+After connecting to the server instance locally in a terminal via ssh, the following commands were used to configure the server:
 
 ### Upgrade currently installed packages
 1. `sudo apt-get update`
