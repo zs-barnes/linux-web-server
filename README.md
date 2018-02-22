@@ -411,3 +411,5 @@ Note: if changes need to be made to the project files after the ownership of the
 
 tutorialspoint [tutorial](https://www.tutorialspoint.com/postgresql/postgresql_create_database.htm) on creating a database with PostgreSQL
 
+https://discussions.udacity.com/t/linux-server-configuration-project-socket-error-errno-99-cannot-assign-requested-address/585559/15
+
